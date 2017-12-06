@@ -4,5 +4,6 @@ class ChangeMovies < ActiveRecord::Migration
       t.remove :lead_actor
       t.string :lead
       t.string :title
+    end
   end
 end
